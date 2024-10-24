@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #e8f0fe;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header {
+  background-color: #3b82f6;
+  color: white;
+  padding: 20px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+  }
+}

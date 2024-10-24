@@ -1,0 +1,27 @@
+/* SearchBarStyles.css */
+.input-field {
+  padding: 12px; /* Slightly increased padding */
+  margin-right: 10px; /* Increased margin for spacing */
+  border-radius: 5px; /* Slightly rounder corners */
+  border: 1px solid #aaa; /* Darker border color */
+  transition: border-color 0.3s; /* Add transition for focus effect */
+}
+
+.input-field:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+.submit-button {
+  padding: 12px 18px; /* Slightly increased padding */
+  background-color: #28a745; /* Different background color */
+  color: white;
+  border: none;
+  border-radius: 5px; /* Slightly rounder corners */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add transition for hover effect */
+}
+
+.submit-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}

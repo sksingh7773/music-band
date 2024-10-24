@@ -1,0 +1,41 @@
+.band-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 6px 14px rgba(0, 128, 128, 0.2);
+  margin: 15px 0;
+  padding: 25px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  border: 2px solid #dff2f1;
+}
+
+.band-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0, 128, 128, 0.35);
+  border-color: #ffa69e;
+}
+
+.band-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.band-name {
+  font-size: 1.8em;
+  color: #074f57;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.band-detail {
+  font-size: 1.1em;
+  color: #555;
+}
+
+.band-detail strong {
+  color: #ff7f50;
+}

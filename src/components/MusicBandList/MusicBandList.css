@@ -1,0 +1,36 @@
+.bands-list {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap onto the next line */
+  gap: 25px; /* Spacing between bands */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+}
+
+.band-item {
+  flex: 0 1 calc(33.33% - 25px); /* Three items per row, accounting for gap */
+  max-width: calc(33.33% - 25px); /* Ensure it does not exceed one-third */
+  box-sizing: border-box; /* Include padding/borders in width */
+}
+
+.no-bands {
+  color: #ff7f50;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .band-item {
+    flex: 0 1 calc(50% - 25px); /* 2 items per row on smaller screens */
+    max-width: calc(50% - 25px);
+  }
+}
+
+@media (max-width: 480px) {
+  .band-item {
+    flex: 0 1 100%; /* 1 item per row on very small screens */
+    max-width: 100%;
+  }
+}
